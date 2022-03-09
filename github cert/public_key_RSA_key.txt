@@ -1,0 +1,7 @@
+To extract the public key from a .cer certificate, we need to execute those commands:
+
+1- openssl x509 -inform der -in certificate.cer -pubkey -noout > certificate_public_key.pem
+
+2- cat certificate_public_key.pem | openssl rsa -pubin -outform der | openssl dgst -sha256 -binary | openssl enc -base64
+
+Github certificate public key hash: xlDAST56PmiT3SR0WdFOR3dghwJrQ8yXx6JLSqTIRpk=

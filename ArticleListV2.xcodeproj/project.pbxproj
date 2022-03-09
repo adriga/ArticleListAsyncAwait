@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		AC294C2A27A2AC5400254164 /* www.github.com.cer in Resources */ = {isa = PBXBuildFile; fileRef = AC294C2927A2AC5400254164 /* www.github.com.cer */; };
 		AC87803B27D124CD00A6BB6B /* XCTestCaseExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC87803A27D124CD00A6BB6B /* XCTestCaseExtension.swift */; };
 		AC87804427D139F100A6BB6B /* ProductListSnapshotTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC87804327D139F100A6BB6B /* ProductListSnapshotTests.swift */; };
 		AC8BA60827A1B1C600DE5191 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC8BA60727A1B1C600DE5191 /* AppDelegate.swift */; };
@@ -72,7 +71,6 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		AC294C2927A2AC5400254164 /* www.github.com.cer */ = {isa = PBXFileReference; lastKnownFileType = file; path = www.github.com.cer; sourceTree = "<group>"; };
 		AC87803A27D124CD00A6BB6B /* XCTestCaseExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XCTestCaseExtension.swift; sourceTree = "<group>"; };
 		AC87804327D139F100A6BB6B /* ProductListSnapshotTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductListSnapshotTests.swift; sourceTree = "<group>"; };
 		AC8BA60427A1B1C600DE5191 /* ArticleListV2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ArticleListV2.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -200,7 +198,6 @@
 		AC8BA63927A1B76700DE5191 /* Configuration */ = {
 			isa = PBXGroup;
 			children = (
-				AC294C2927A2AC5400254164 /* www.github.com.cer */,
 				AC8BA61527A1B1C700DE5191 /* Info.plist */,
 			);
 			path = Configuration;
@@ -515,7 +512,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AC294C2A27A2AC5400254164 /* www.github.com.cer in Resources */,
 				AC8BA64627A1BDF300DE5191 /* Colors.xcassets in Resources */,
 				AC8BA61427A1B1C700DE5191 /* LaunchScreen.storyboard in Resources */,
 				AC8BA64927A1BF1C00DE5191 /* Localizable.strings in Resources */,
