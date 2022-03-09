@@ -27,7 +27,7 @@ class NetworkManagerTests: XCTestCase {
         }
         
         // When
-        let response = await sut.makeRequest(request: TestGetApiService())
+        let response = await sut.makeRequest(request: GetApiServiceMock())
         
         // Then
         switch response {
@@ -46,7 +46,7 @@ class NetworkManagerTests: XCTestCase {
         }
         
         // When
-        let response = await sut.makeRequest(request: TestGetApiService())
+        let response = await sut.makeRequest(request: GetApiServiceMock())
         
         // Then
         switch response {
@@ -66,7 +66,7 @@ class NetworkManagerTests: XCTestCase {
         }
 
         // When
-        let response = await sut.makeRequest(request: TestGetApiService())
+        let response = await sut.makeRequest(request: GetApiServiceMock())
 
         // Then
         switch response {

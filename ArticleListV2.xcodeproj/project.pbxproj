@@ -48,12 +48,12 @@
 		AC9621F227D8ACCA00CB3D2F /* OHHTTPStubsSwift in Frameworks */ = {isa = PBXBuildFile; productRef = AC9621F127D8ACCA00CB3D2F /* OHHTTPStubsSwift */; };
 		AC9D165927CE58CB00D4BE2A /* AsyncInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC9D165827CE58CB00D4BE2A /* AsyncInteractor.swift */; };
 		AC9D166B27CE889400D4BE2A /* NetworkManagerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC9D165E27CE889300D4BE2A /* NetworkManagerTests.swift */; };
-		AC9D166C27CE889400D4BE2A /* TestResponseDTO.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC9D165F27CE889300D4BE2A /* TestResponseDTO.swift */; };
-		AC9D166D27CE889400D4BE2A /* TestGetApiService.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC9D166027CE889300D4BE2A /* TestGetApiService.swift */; };
+		AC9D166C27CE889400D4BE2A /* ResponseDTOMock.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC9D165F27CE889300D4BE2A /* ResponseDTOMock.swift */; };
+		AC9D166D27CE889400D4BE2A /* GetApiServiceMock.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC9D166027CE889300D4BE2A /* GetApiServiceMock.swift */; };
 		AC9D166E27CE889400D4BE2A /* ProductListViewSpy.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC9D166327CE889400D4BE2A /* ProductListViewSpy.swift */; };
 		AC9D166F27CE889400D4BE2A /* ProductListPresenterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC9D166427CE889400D4BE2A /* ProductListPresenterTests.swift */; };
 		AC9D167027CE889400D4BE2A /* ProductListUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC9D166527CE889400D4BE2A /* ProductListUITests.swift */; };
-		AC9D167127CE889400D4BE2A /* NetworkManagerMocks.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC9D166627CE889400D4BE2A /* NetworkManagerMocks.swift */; };
+		AC9D167127CE889400D4BE2A /* NetworkManagerMock.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC9D166627CE889400D4BE2A /* NetworkManagerMock.swift */; };
 		AC9D167227CE889400D4BE2A /* ProductListRouterSpy.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC9D166727CE889400D4BE2A /* ProductListRouterSpy.swift */; };
 		AC9D167327CE889400D4BE2A /* ProductListPresenterSpy.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC9D166827CE889400D4BE2A /* ProductListPresenterSpy.swift */; };
 		AC9D167427CE889400D4BE2A /* ShoppingCartInteractorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC9D166927CE889400D4BE2A /* ShoppingCartInteractorTests.swift */; };
@@ -113,12 +113,12 @@
 		AC8BA67B27A1C3B800DE5191 /* ProductEntity.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProductEntity.swift; sourceTree = "<group>"; };
 		AC9D165827CE58CB00D4BE2A /* AsyncInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AsyncInteractor.swift; sourceTree = "<group>"; };
 		AC9D165E27CE889300D4BE2A /* NetworkManagerTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetworkManagerTests.swift; sourceTree = "<group>"; };
-		AC9D165F27CE889300D4BE2A /* TestResponseDTO.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TestResponseDTO.swift; sourceTree = "<group>"; };
-		AC9D166027CE889300D4BE2A /* TestGetApiService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TestGetApiService.swift; sourceTree = "<group>"; };
+		AC9D165F27CE889300D4BE2A /* ResponseDTOMock.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ResponseDTOMock.swift; sourceTree = "<group>"; };
+		AC9D166027CE889300D4BE2A /* GetApiServiceMock.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GetApiServiceMock.swift; sourceTree = "<group>"; };
 		AC9D166327CE889400D4BE2A /* ProductListViewSpy.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProductListViewSpy.swift; sourceTree = "<group>"; };
 		AC9D166427CE889400D4BE2A /* ProductListPresenterTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProductListPresenterTests.swift; sourceTree = "<group>"; };
 		AC9D166527CE889400D4BE2A /* ProductListUITests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProductListUITests.swift; sourceTree = "<group>"; };
-		AC9D166627CE889400D4BE2A /* NetworkManagerMocks.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetworkManagerMocks.swift; sourceTree = "<group>"; };
+		AC9D166627CE889400D4BE2A /* NetworkManagerMock.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetworkManagerMock.swift; sourceTree = "<group>"; };
 		AC9D166727CE889400D4BE2A /* ProductListRouterSpy.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProductListRouterSpy.swift; sourceTree = "<group>"; };
 		AC9D166827CE889400D4BE2A /* ProductListPresenterSpy.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProductListPresenterSpy.swift; sourceTree = "<group>"; };
 		AC9D166927CE889400D4BE2A /* ShoppingCartInteractorTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ShoppingCartInteractorTests.swift; sourceTree = "<group>"; };
@@ -390,9 +390,10 @@
 		AC9D165D27CE889300D4BE2A /* Network */ = {
 			isa = PBXGroup;
 			children = (
+				AC9D166627CE889400D4BE2A /* NetworkManagerMock.swift */,
 				AC9D165E27CE889300D4BE2A /* NetworkManagerTests.swift */,
-				AC9D165F27CE889300D4BE2A /* TestResponseDTO.swift */,
-				AC9D166027CE889300D4BE2A /* TestGetApiService.swift */,
+				AC9D165F27CE889300D4BE2A /* ResponseDTOMock.swift */,
+				AC9D166027CE889300D4BE2A /* GetApiServiceMock.swift */,
 			);
 			path = Network;
 			sourceTree = "<group>";
@@ -408,7 +409,6 @@
 		AC9D166227CE889400D4BE2A /* ProductList */ = {
 			isa = PBXGroup;
 			children = (
-				AC9D166627CE889400D4BE2A /* NetworkManagerMocks.swift */,
 				AC9D166927CE889400D4BE2A /* ShoppingCartInteractorTests.swift */,
 				AC9D166A27CE889400D4BE2A /* ProductListInteractorTests.swift */,
 				AC9D166827CE889400D4BE2A /* ProductListPresenterSpy.swift */,
@@ -575,16 +575,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AC9D166C27CE889400D4BE2A /* TestResponseDTO.swift in Sources */,
+				AC9D166C27CE889400D4BE2A /* ResponseDTOMock.swift in Sources */,
 				AC9D167027CE889400D4BE2A /* ProductListUITests.swift in Sources */,
 				AC9D167427CE889400D4BE2A /* ShoppingCartInteractorTests.swift in Sources */,
 				AC87804427D139F100A6BB6B /* ProductListSnapshotTests.swift in Sources */,
 				AC9D166B27CE889400D4BE2A /* NetworkManagerTests.swift in Sources */,
 				AC87803B27D124CD00A6BB6B /* XCTestCaseExtension.swift in Sources */,
-				AC9D166D27CE889400D4BE2A /* TestGetApiService.swift in Sources */,
+				AC9D166D27CE889400D4BE2A /* GetApiServiceMock.swift in Sources */,
 				AC9D167327CE889400D4BE2A /* ProductListPresenterSpy.swift in Sources */,
 				AC9D166E27CE889400D4BE2A /* ProductListViewSpy.swift in Sources */,
-				AC9D167127CE889400D4BE2A /* NetworkManagerMocks.swift in Sources */,
+				AC9D167127CE889400D4BE2A /* NetworkManagerMock.swift in Sources */,
 				AC9D166F27CE889400D4BE2A /* ProductListPresenterTests.swift in Sources */,
 				AC9D167527CE889400D4BE2A /* ProductListInteractorTests.swift in Sources */,
 				AC9D167227CE889400D4BE2A /* ProductListRouterSpy.swift in Sources */,
