@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14460.31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14460.20"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="ProductCell" rowHeight="70" id="KGk-i7-Jjw" customClass="ProductCell" customModule="ArticleList" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="70"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="320" height="69.5"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="T9W-0o-atq">
+                        <rect key="frame" x="20" y="10" width="50" height="50"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="50" id="KFI-az-Nnv"/>
+                            <constraint firstAttribute="width" constant="50" id="WDh-dX-WaN"/>
+                        </constraints>
+                    </imageView>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Coffee Mug" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="4Vi-Zx-BsB">
+                        <rect key="frame" x="90" y="10" width="190" height="21"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="21" id="mHQ-ti-fmn"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="7.5€" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="4wr-Sl-jrI">
+                        <rect key="frame" x="90" y="38.5" width="29" height="21"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="21" id="Emq-Uj-GjW"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label hidden="YES" opaque="NO" userInteractionEnabled="NO" contentMode="left" verticalHuggingPriority="251" text="(-5% buying 3 or more)" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="xHw-6f-mrx">
+                        <rect key="frame" x="129" y="42" width="151" height="14.5"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="add_shopping_cart" translatesAutoresizingMaskIntoConstraints="NO" id="EGh-rG-OAb">
+                        <rect key="frame" x="285" y="25" width="20" height="20"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="20" id="P4R-vD-Zf6"/>
+                            <constraint firstAttribute="height" constant="20" id="PNP-8D-W6c"/>
+                        </constraints>
+                    </imageView>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="EGh-rG-OAb" firstAttribute="centerY" secondItem="H2p-sc-9uM" secondAttribute="centerY" id="7uR-P5-Igz"/>
+                    <constraint firstItem="4wr-Sl-jrI" firstAttribute="leading" secondItem="T9W-0o-atq" secondAttribute="trailing" constant="20" id="NRc-e3-JxK"/>
+                    <constraint firstItem="T9W-0o-atq" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="20" id="Qgy-Ur-NNL"/>
+                    <constraint firstAttribute="trailing" secondItem="xHw-6f-mrx" secondAttribute="trailing" constant="40" id="ZiH-n6-A3b"/>
+                    <constraint firstItem="xHw-6f-mrx" firstAttribute="leading" secondItem="4wr-Sl-jrI" secondAttribute="trailing" constant="10" id="aoD-Pf-xmd"/>
+                    <constraint firstAttribute="trailing" secondItem="4Vi-Zx-BsB" secondAttribute="trailing" constant="40" id="cuc-wd-aHt"/>
+                    <constraint firstItem="T9W-0o-atq" firstAttribute="centerY" secondItem="H2p-sc-9uM" secondAttribute="centerY" id="eIv-wU-T7z"/>
+                    <constraint firstItem="4Vi-Zx-BsB" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="10" id="hdq-9o-HLW"/>
+                    <constraint firstItem="4Vi-Zx-BsB" firstAttribute="leading" secondItem="T9W-0o-atq" secondAttribute="trailing" constant="20" id="oeK-VC-Wyk"/>
+                    <constraint firstAttribute="trailing" secondItem="EGh-rG-OAb" secondAttribute="trailing" constant="15" id="qIg-SP-1FQ"/>
+                    <constraint firstAttribute="bottom" secondItem="4wr-Sl-jrI" secondAttribute="bottom" constant="10" id="qTr-24-K0a"/>
+                    <constraint firstItem="xHw-6f-mrx" firstAttribute="centerY" secondItem="4wr-Sl-jrI" secondAttribute="centerY" id="qjG-ag-Yfu"/>
+                </constraints>
+            </tableViewCellContentView>
+            <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
+            <connections>
+                <outlet property="offerLabel" destination="xHw-6f-mrx" id="i1K-k5-VBR"/>
+                <outlet property="productImage" destination="T9W-0o-atq" id="iRe-g3-2HU"/>
+                <outlet property="productName" destination="4Vi-Zx-BsB" id="0dD-Di-rlb"/>
+                <outlet property="productPrice" destination="4wr-Sl-jrI" id="fZg-Ww-YGq"/>
+            </connections>
+            <point key="canvasLocation" x="137.59999999999999" y="166.41679160419793"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="add_shopping_cart" width="96" height="96"/>
+    </resources>
+</document>
