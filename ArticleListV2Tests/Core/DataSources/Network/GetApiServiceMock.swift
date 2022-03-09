@@ -1,9 +1,9 @@
 import Foundation
 @testable import ArticleListV2
 
-struct TestGetApiService: ApiService {
+struct GetApiServiceMock: ApiService {
     
-    typealias Response = TestResponseDTO
+    typealias Response = ResponseDTOMock
     
     var resourceName: String {
         return "/test"
